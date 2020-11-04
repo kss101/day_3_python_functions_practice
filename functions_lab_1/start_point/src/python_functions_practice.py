@@ -26,3 +26,9 @@ def number_to_full_month_name( month_num ):
 	import datetime
 	get_month_name = datetime.datetime(2020, month_num, 1)
 	return(get_month_name.strftime("%B"))
+
+def number_to_short_month_name( month_num ):
+    import datetime
+    get_month_short_name = datetime.datetime(2020, month_num, 1)
+    return(get_month_short_name.strftime("%b"))
+
