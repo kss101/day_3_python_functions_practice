@@ -32,3 +32,10 @@ def number_to_short_month_name( month_num ):
     get_month_short_name = datetime.datetime(2020, month_num, 1)
     return(get_month_short_name.strftime("%b"))
 
+def volume_of_cube(side):
+    import math
+    vol_cube = math.pow(side, 3)
+    return vol_cube
+
+
+
