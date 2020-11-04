@@ -22,3 +22,7 @@ def join_string( string_1, string_2 ):
 def add_string_as_number( string_1, string_2 ):
     return int(string_1) + int(string_2)
 
+def number_to_full_month_name( month_num ):
+	import datetime
+	get_month_name = datetime.datetime(2020, month_num, 1)
+	return(get_month_name.strftime("%B"))
