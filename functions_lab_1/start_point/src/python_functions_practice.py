@@ -37,5 +37,8 @@ def volume_of_cube(side):
     vol_cube = math.pow(side, 3)
     return vol_cube
 
+def fahrenheit_to_celsius(temp_F):
+    temp_C = round(((temp_F - 32) * 5 / 9), 0)
+    return (temp_C)
 
 
